@@ -1,4 +1,4 @@
-# IaC - Provisionamento do EKS na AWS com Terraform
+# Provisionamento do EKS com Terraform
 
 ## Geral
 Este repositório contém a Infraestrutura como Código (IaC) utilizando Terraform para provisionar um cluster Amazon Elastic Kubernetes Service (EKS) juntamente com uma Virtual Private Cloud (VPC) na AWS para o projeto do Tech Challenge. Esta configuração visa criar um ambiente Kubernetes escalável e seguro para rodar aplicações conteinerizadas.

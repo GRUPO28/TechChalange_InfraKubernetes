@@ -2,7 +2,7 @@ module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "5.13.0"
 
-  name = "tech-challenge-vpc"
+  name = "fiap-vpc"
   cidr = "10.0.0.0/16" #10.0.1.1 - 10.0.255.255
 
   azs             = ["us-east-1a", "us-east-1b"]
@@ -12,6 +12,6 @@ module "vpc" {
   enable_nat_gateway = true
 
   tags = {
-    Name = "tech-challenge-vpc"
+    Name = "fiap-vpc"
   }
 }

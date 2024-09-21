@@ -6,7 +6,7 @@ variable "aws_region" {
 
 variable "cluster_name" {
   description = "The name of the EKS cluster."
-  default     = "tech-challenge-cluster"
+  default     = "fiap-cluster"
 }
 
 variable "node_instance_type" {
