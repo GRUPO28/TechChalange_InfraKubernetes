@@ -3,6 +3,10 @@ name: Destroy EKS Cluster
 on:
   workflow_dispatch:
 
+defaults:
+  run:
+    working-directory: ./infra
+
 jobs:
   destroy:
     runs-on: ubuntu-latest
